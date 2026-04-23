@@ -1,0 +1,44 @@
+{
+  "started": "2026-04-23T14:15:40",
+  "polars": "1.34.0",
+  "errors": [],
+  "markets_base_rows": 165214,
+  "verdict": {
+    "validations": {
+      "A_temporal": {
+        "ev_bucket_0.30-0.40_at_cutoff_0.50": 0.029552160380586417,
+        "threshold_pass": 0.01,
+        "threshold_fail": 0.005,
+        "verdict": "PASS"
+      },
+      "B_walkforward": {
+        "years": [
+          2024,
+          2025
+        ],
+        "ev_per_year": [
+          0.041572844845287615,
+          0.014981362154721428
+        ],
+        "std_ev": 0.01880301773230405,
+        "monotonic_decay": true,
+        "verdict": "FAIL"
+      },
+      "C_volume": {
+        "ev_weighted_liquid_markets": 0.020536203332578773,
+        "threshold_pass": 0.005,
+        "verdict": "PASS"
+      },
+      "D_wallets": {
+        "top50_share": 0.295969852464809,
+        "threshold_pass": 0.3,
+        "threshold_fail": 0.5,
+        "verdict": "PASS"
+      }
+    },
+    "final_decision": "MARGINAL_PROCEED \u2014 edge existe pero fr\u00e1gil, tama\u00f1o m\u00ednimo y validar forward",
+    "n_pass": 3,
+    "n_fail": 1
+  },
+  "finished": "2026-04-23T14:43:37"
+}

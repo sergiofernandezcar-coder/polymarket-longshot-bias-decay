@@ -1,0 +1,74 @@
+{
+  "started": "2026-04-23T15:18:34",
+  "polars": "1.34.0",
+  "errors": [],
+  "stats": [
+    {
+      "category": "POLITICS",
+      "n_baseline_quarters": 7,
+      "baseline_mu_ev": -0.1359753534776313,
+      "baseline_sigma_ev": 0.15642279164700768,
+      "ev_q1_2026": 0.17263416103170737,
+      "n_q1_2026": 48585,
+      "z_score": 1.9729191076308366,
+      "verdict": "NOISE"
+    },
+    {
+      "category": "SPORTS",
+      "n_baseline_quarters": 6,
+      "baseline_mu_ev": -0.0005657150748508097,
+      "baseline_sigma_ev": 0.062370126079297726,
+      "ev_q1_2026": 0.07615227899198299,
+      "n_q1_2026": 109749,
+      "z_score": 1.2300439150835467,
+      "verdict": "NOISE"
+    },
+    {
+      "category": "OTHER",
+      "n_baseline_quarters": 6,
+      "baseline_mu_ev": 0.01599489859892893,
+      "baseline_sigma_ev": 0.05878920042704235,
+      "ev_q1_2026": 0.04470025294447599,
+      "n_q1_2026": 35717,
+      "z_score": 0.4882759781904251,
+      "verdict": "NOISE"
+    }
+  ],
+  "final": {
+    "decision": "KILL_PROJECT",
+    "reason": "3/3 categor\u00edas muestran que Q1 2026 est\u00e1 dentro del ruido trimestral",
+    "per_category": [
+      {
+        "category": "POLITICS",
+        "n_baseline_quarters": 7,
+        "baseline_mu_ev": -0.1359753534776313,
+        "baseline_sigma_ev": 0.15642279164700768,
+        "ev_q1_2026": 0.17263416103170737,
+        "n_q1_2026": 48585,
+        "z_score": 1.9729191076308366,
+        "verdict": "NOISE"
+      },
+      {
+        "category": "SPORTS",
+        "n_baseline_quarters": 6,
+        "baseline_mu_ev": -0.0005657150748508097,
+        "baseline_sigma_ev": 0.062370126079297726,
+        "ev_q1_2026": 0.07615227899198299,
+        "n_q1_2026": 109749,
+        "z_score": 1.2300439150835467,
+        "verdict": "NOISE"
+      },
+      {
+        "category": "OTHER",
+        "n_baseline_quarters": 6,
+        "baseline_mu_ev": 0.01599489859892893,
+        "baseline_sigma_ev": 0.05878920042704235,
+        "ev_q1_2026": 0.04470025294447599,
+        "n_q1_2026": 35717,
+        "z_score": 0.4882759781904251,
+        "verdict": "NOISE"
+      }
+    ]
+  },
+  "finished": "2026-04-23T15:22:02"
+}

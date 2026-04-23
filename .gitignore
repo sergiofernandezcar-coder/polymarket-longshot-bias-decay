@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+.venv/
+.DS_Store
+# Datasets raw — nunca subir (144 GB)
+processed/
+markets.csv
+goldsky_cache/
