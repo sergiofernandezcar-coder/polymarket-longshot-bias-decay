@@ -2,7 +2,7 @@
 
 A four-phase quantitative autopsy of the long-shot bias anomaly in Polymarket between November 2022 and February 2026, over 593 million on-chain trades.
 
-**Full write-up:** (https://medium.com/p/f325f4a3d1b7?postPublishedType=initial)
+**Full write-up:** (https://medium.com/@sergiofernandezcar/the-9-77-edge-that-decayed-to-4-96-in-3-years-a-polymarket-post-mortem-f325f4a3d1b7?postPublishedType=repub))
 
 ## What this repo is
 
