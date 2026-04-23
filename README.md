@@ -117,7 +117,7 @@ MIT. Use the scripts, fork them, adapt them to your markets. If you find a simil
 
 If you reference this analysis in work of your own:
 
-> sergiofernandezcar (2026). *The +9.77% edge that decayed to −4.96%: a Polymarket post-mortem.* Retrieved from (https://medium.com/p/f325f4a3d1b7?postPublishedType=initial) and https://github.com/sergiofernandezcar-coder/bot_polymarket.
+> sergiofernandezcar (2026). *The +9.77% edge that decayed to −4.96%: a Polymarket post-mortem.* Retrieved from (https://medium.com/@sergiofernandezcar/the-9-77-edge-that-decayed-to-4-96-in-3-years-a-polymarket-post-mortem-f325f4a3d1b7?postPublishedType=repub)) and (https://github.com/sergiofernandezcar-coder/polymarket-longshot-bias-decay.git)
 
 ## Contact
 
